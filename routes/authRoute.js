@@ -4,7 +4,7 @@ import {login,getDashboard} from "../controllers/authController.js"
 const router = express.Router()
 
 router.get('/dashboard',getDashboard)
-router.get('/login',login)
+router.post('/login',login)
 
 export default router
 

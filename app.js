@@ -1,6 +1,7 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import dotenv from 'dotenv'
+import jwt from 'jsonwebtoken'
 import authRoute from './routes/authRoute.js'
 
 const port = process.env.PORT || 8000
